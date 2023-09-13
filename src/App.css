@@ -1,0 +1,36 @@
+.lista-container {
+  font-family: Arial, sans-serif;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #3498db; /* Borde azul */
+  background-color: #f2f8fd; /* Fondo azul claro */
+  border-radius: 5px;
+}
+
+.lista-container ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.lista-container li {
+  margin-bottom: 10px;
+}
+
+.lista-container input[type="text"],
+.lista-container button {
+  padding: 8px;
+  border: 1px solid #3498db; /* Borde azul */
+  border-radius: 5px;
+}
+
+.lista-container button {
+  background-color: #3498db; /* Fondo azul */
+  color: white;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.lista-container button:hover {
+  background-color: #217dbb; /* Cambia el color al pasar el cursor */
+}
